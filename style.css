@@ -68,3 +68,19 @@ img {
 .msg:hover {
     background-color: rgb(96, 23, 165);
 }
+
+@media screen and (min-width : 393px) and (max-width : 767px) {
+    h1 {
+        width: 900px;
+    }
+
+    .options,
+    .score-board {
+        width: 900px;
+    }
+
+    .msg {
+        width: 500px;
+        margin-left: 160px;
+    }
+}
